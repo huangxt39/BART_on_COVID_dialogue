@@ -31,9 +31,10 @@ put the model at
 	 |...
 
 ## 3) Fine-tuning
-prerequisite:
+Prerequisite:
 
 PyTorch
+
 Fairseq (to install, follow the guidance in [here](https://github.com/pytorch/fairseq). In most cases, just simply run "pip install fairseq")
 
 
