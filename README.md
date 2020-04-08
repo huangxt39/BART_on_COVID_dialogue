@@ -31,6 +31,11 @@ put the model at
 	 |...
 
 ## 3) Fine-tuning
+prerequisite:
+
+PyTorch
+Fairseq (to install, follow the guidance in [here](https://github.com/pytorch/fairseq). In most cases, just simply run "pip install fairseq")
+
 
 Data is already preprocessed. if you would like to preprocess again, you can run the file in preprocess_data directory in this order:
 
@@ -63,7 +68,7 @@ If you think extra output is annoying, you can write a interact script by yourse
 
 ## 5) Use the model in your code
 
-This is from fairseq tutorial, from which you can learn how to use the model.
+This is from [fairseq tutorial](https://github.com/pytorch/fairseq/blob/master/examples/bart/README.summarization.md), from which you can learn how to use the model.
 
     import torch
 	from fairseq.models.bart import BARTModel
