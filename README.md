@@ -33,10 +33,11 @@ put the model at
 ## 3) Fine-tuning
 Prerequisite:
 
-PyTorch
+**PyTorch**
 
-Fairseq (to install, follow the guidance in [here](https://github.com/pytorch/fairseq). In most cases, just simply run "pip install fairseq")
+**Fairseq** (to install, follow the guidance in [here](https://github.com/pytorch/fairseq). In most cases, just simply run "pip install fairseq")
 
+During fine-tuning, the input is what the patients said and output is what the doctors said. Thus the model is playing a role of a doctor.
 
 Data is already preprocessed. if you would like to preprocess again, you can run the file in preprocess_data directory in this order:
 
