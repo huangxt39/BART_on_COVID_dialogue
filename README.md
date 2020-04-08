@@ -1,6 +1,6 @@
 # Fine-tuning BART on COVID Dialogue Dataset #
 
-##1) Introduction
+## 1) Introduction
 
 BART model [https://arxiv.org/pdf/1910.13461.pdf](https://arxiv.org/pdf/1910.13461.pdf)
 
@@ -10,7 +10,7 @@ Fairseq tutorial on fine-tuning BART on Seq2Seq task [https://github.com/pytorch
 
 COVID Dialogue Dataset [https://github.com/UCSD-AI4H/COVID-Dialogue](https://github.com/UCSD-AI4H/COVID-Dialogue)
 
-##2) Download model
+## 2) Download model
 
 Download the BART-large model from [here](https://dl.fbaipublicfiles.com/fairseq/models/bart.large.tar.gz "here")
 
@@ -30,7 +30,7 @@ put the model at
 	 |	  |...
 	 |...
 
-##3) Fine-tuning
+## 3) Fine-tuning
 
 Data is already preprocessed. if you would like to preprocess again, you can run the file in preprocess_data directory in this order:
 
@@ -46,7 +46,7 @@ After adjustment, you simply run this command:
 
 A checkpoint will be dumped at ./checkpoints/checkpoint_last.pt every epoch. You can stop fine-tuning whenever you want. Note that from my empirical experiments, too many epochs may lead to bad performance when doing inference.
 
-##4) Interact with your model
+## 4) Interact with your model
 
 run the command:
 
@@ -61,7 +61,7 @@ Example output:
 
 If you think extra output is annoying, you can write a interact script by yourself, following the guidance below.
 
-##5) Use the model in your code
+## 5) Use the model in your code
 
 This is from fairseq tutorial, from which you can learn how to use the model.
 
